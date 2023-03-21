@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표 만들기</title>
+    <style>
+        table{
+            border-width: 1px; /*태두리의 너비*/
+            border-style: solid; /*태두리의 스타일*/
+            border-color: #0000ff; /*태두리의 색상*/
+            width: 250px;
+            height: 10px;
+            text-align: center;
+            border-collapse: collapse; /*태두리 병합*/
+        }
+        td{
+            /* 태두리의 너비 스타일 색상 */
+            border: 1px solid #5ebdd4;
+            width: 250px;
+            height: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>로그인 폼</h2>
+    <table>
+        <tr>
+            <td>아이디</td>
+            <td>작성자</td>
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td>홍길동</td>
+        </tr>
+        <tr>
+            <!-- 열(colspan) 병합 -->
+            <td colspan="2">로그인</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,23 @@
+h1{
+    color: blue;
+}
+p {
+    /* text-aligh: left */
+    /* text-align: center; */
+    /* text-align: right; */
+    /* 양쪽 정렬 */
+    text-align: justify;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+}
+
+/* hover: 마우스를 올렸을 때, 동작함 */
+a:hover{
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(224, 187, 85);
+}

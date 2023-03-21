@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록 관련 스타일</title>
+    <style>
+        ul li{
+            /* list-style: circle; */
+            /* none : 메뉴 만들 때 주로 사용함 */
+            list-style: none;
+        }
+
+        h1{
+            color: rgb(48, 17, 185);
+        }
+
+        ul li{
+            color: darkred;
+        }
+        /* class 선택자는 .(점)을 앞에붙여줌 */
+        .menu1 {
+            color: darkviolet;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+        li.menu1{
+            color: dodgerblue;
+        }
+
+        h1 {
+  color: rgb(48, 17, 185);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+    h2.say1 {
+        /* 글자 간격(자간) */
+        letter-spacing: 5px;
+    }
+    h2.say2{
+        letter-spacing: 18px;
+    }
+    h2.say3{
+        letter-spacing: -2px;
+    }
+
+    </style>
+</head>
+<body>
+    <h1>ABC 주식회사</h1>
+    <ul>
+        <li>회사 소개</li>
+        <li>제품 소개</li>
+        <li>회원 가입</li>
+        <li>게시판</li>
+
+    </ul>
+    
+    <h1>123 주식회사</h1>
+    <li class="menu1">회사 소개</li>
+    <li>제품 소개</li>
+    <li>회원 가입</li>
+    <li class="menu1">게시판</li>
+
+    <hr>
+    <h2 class="say1">안녕하세요.</h2>
+    <h2 class="say2">안녕하세요.</h2>
+    <h2 class="say3">안녕하세요.</h2>
+    
+</body>
+</html>
