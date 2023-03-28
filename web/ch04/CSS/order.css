@@ -1,0 +1,23 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+form{
+    width: 600px;
+}
+fieldset{
+    margin-bottom: 20px;
+    background-color: rgb(230, 189, 57);
+}
+ul li{
+    list-style: none; margin: 10px;
+}
+.button input{
+    margin: 0 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+h1{
+    color: chocolate;
+}

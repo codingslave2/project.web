@@ -1,0 +1,47 @@
+#container{
+    width: 1000px;
+    margin: 0 auto;
+    border: none;
+}
+div{
+    border: 1px solid black;
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+#description{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+p{line-height: 2;}
+.img{
+    background: url("../images/Tangerine.jpg") no-repeat;
+    /* 크기가 없으면 이미지 활성 안됨 */
+    border: none;
+    /* 태두리 숨김 */
+    width: 450px;
+    height: 350px;
+    margin-left: 10px;
+}
+
+ul li{
+    list-style: none;
+    line-height: 2;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+#package{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+caption{
+    margin-bottom: 20px;
+}

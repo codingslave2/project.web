@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>수직 정렬</title>
+    <style>
+        table, td{
+            border: 1px solid black;
+        }
+        td{
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            /* vertical-align: bottom; */
+        }
+        .va1{
+            vertical-align: top;
+        }
+        .va2{
+            vertical-align: middle;
+        }
+        .va3{
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <table id="wrap">
+    <!-- 2행 3열 -->
+    <tbody>
+        <tr>
+        <td class="va1">1행 1열</td>
+        <td class="va2">1행 2열</td>
+        <td class="va3">1행 3열</td>
+        <td class="va4">1행 3열</td>
+        <td class="va5">1행 3열</td>
+    </tr>
+        <tr>
+        <td colspan="5">셀 병합</td>
+       
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

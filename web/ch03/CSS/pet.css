@@ -1,0 +1,59 @@
+*{margin: 0; padding: 0;}
+
+#contaier{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2{
+    color: blue;
+}
+/* header 영역 스타일 */
+
+header{
+    /* width 생략 - 1000px 사용 */
+    height: 80px;
+    background-color: cadetblue;
+}
+
+header #logo{
+    width: 200px; float: left;
+    line-height: 60px;
+    text-align: center;
+}
+
+header nav{
+    float: right;
+    line-height: 60px;
+}
+
+header nav{ color: azure; padding-left: 20px;}
+
+h1{
+    padding: 10px;
+    margin: 0 auto;
+}
+
+header h1:hover{
+    color: brown;
+    background-color: chartreuse;
+}
+
+
+nav li{
+    list-style: none;
+}
+
+nav ul li{
+    float: left;
+    margin-right: 10px;
+}
+ul li a{
+    display: block;
+    padding: 10px;
+}
+
+a:hover{
+    background-color: cornsilk;
+    color: darkcyan;
+}

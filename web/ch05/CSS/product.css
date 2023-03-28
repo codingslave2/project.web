@@ -1,0 +1,32 @@
+*{margin: 0; padding: 0;}
+
+#container{
+    width: 960px; margin: 30px auto;
+}
+
+h1{text-align: center;}
+.prod-list{list-style: none;}
+.prod-list li{
+    display: inline-block;
+    margin: 3px 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.prod-list img{
+    float: left;
+}
+
+.prod-list .caption{
+    width: 300px; height: 200px; top: 200px; transition: all 0.5s;
+}
+
+.prod-list li:hover .caption{
+    top: 200px;
+    transform: translateY(-200px);
+}
+
+.prod-list .caption h2, p{
+    color: rgb(114, 106, 106);
+    line-height: 2;
+}

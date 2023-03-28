@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display 속성</title>
+    <style>
+        .round1{
+            width: 300px;
+            height: 250px;
+            border: 2px solid rgb(163, 9, 9);
+            border-radius: 20px;
+            margin: 10px;
+            /* 속성(크기, 여백)이 포함되면 inline은 적용 안됨 */
+            display: inline-block;
+        }
+        #bg{
+            /* 이미지 반복 안함, 크기에 꽉차게 */
+            background: url("./images/road-g81343ae16_640.jpg") no-repeat;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="round1"></div>
+    <div class="round1" id="bg"></div>
+    
+</body>
+</html>

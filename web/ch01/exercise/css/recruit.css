@@ -1,0 +1,38 @@
+body{
+    background-color: lightblue;
+}
+#container{
+    border: 1px solid black;
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    padding-left: 20px;
+    background-image: url(../images/lynx-g74875a7d6_640.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+ul li{
+    list-style: none;
+    padding: 10px 10px;
+}
+li{
+    margin: 10px;
+}
+h1{background: cornflowerblue;
+    text-align: center;
+    margin: 10px;
+    color: white;
+    width: 550px;
+    height: 60px;
+    line-height: 60px;
+
+}
+h2{
+    text-align: center;
+    font-style: italic;
+
+}
+h3{
+    color: darkred;
+}

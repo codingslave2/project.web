@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라디오 버튼, 체크 박스</title>
+    <style>
+        form{
+            width: 600px;
+        }
+        fieldset{
+            margin-bottom: 20px;
+            background-color: bisque;
+        }
+        legend{
+            font-size: 15px;
+            font-weight: bold;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>신청 과목</legend>
+            <p>이 달에 신청할 과목을 선택하세요(1과목만 선택 가능)</p>
+            <!-- 하나만 선택할 시, name 태그를 동일하게 작성, name 태그가 다르면, 중복 선택 가능 -->
+            <!-- labe의 역할: 글자를 눌러도 버튼이 선택됨-작은 기기에서 유리 -->
+            <label><input type="radio" name="subject" value="speaking">회화</label>
+            <label><input type="radio" name="subject" value="grammar">문법</label>
+            <label><input type="radio" name="subject" value="writting">작문</label>
+        </fieldset>
+        <fieldset>
+            <legend>메일링</legend>
+            <p>메일로 받고 싶은 뉴르 주제를 선택해 주세요(복수 선택 가능)</p>
+            <label><input type="checkbox" name="mailing1" value="news">해외 단신</label>
+            <label><input type="checkbox" name="mailing2" value="news">5분 회화</label>
+            <label><input type="checkbox" name="mailing3" value="news">모닝 팝스</label>
+
+        </fieldset>
+
+    </form>
+    
+</body>
+</html>
